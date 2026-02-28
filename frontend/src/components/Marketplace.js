@@ -220,7 +220,7 @@ function Marketplace() {
               By: {api.createdBy?.name}
             </div>
             
-            {api.isSubscribed ? (
+            {api.subscribed ? (
               <button
                 className="btn"
                 style={{ 
